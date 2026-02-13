@@ -1,8 +1,8 @@
-from VD_games.scripts import VD_games
+from VD_games.scripts import games
 
 def main():
     print("Точка входа VD_main")
-    result = VD_games.game_function()
+    result = games.game_function()
     print(result)
 
 if __name__ == "__main__":
